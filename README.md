@@ -1,16 +1,63 @@
-# React + Vite
+🌦 Weather Report Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and user-friendly Weather App built using React JS and Weather API integration. This project allows users to search for real-time weather details of any city across the world. It is designed with clean UI, dynamic data fetching, and mobile-friendly layouts using Flex/Grid and Media Queries.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 Real-Time Weather Data
 
-## React Compiler
+The app integrates with OpenWeatherMap (or any free Weather API) to retrieve:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Temperature
 
-## Expanding the ESLint configuration
+Weather condition
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Humidity
+
+Wind speed
+
+Visibility
+
+Feels Like temperature
+
+And more…
+
+⚛️ React Architecture
+
+Created using Create React App (CRA)
+
+Weather logic is built in a separate React component
+
+Used React Hooks (useState) for state management
+
+API requests handled using axios
+
+🎨 Attractive UI with Tailwind CSS
+
+Clean and modern interface
+
+CSS/Tailwind for styling
+
+Responsive design using Flex, CSS Grid, and Media Queries
+
+🔗 Dynamic API Integration
+
+API URL uses template literals to insert user input dynamically
+
+Axios GET request fetches the data based on user search
+
+⚠️ Error Handling
+
+Includes basic error handling for:
+
+Invalid city names
+
+Failed API requests
+
+Empty search input
+
+Ensures a smooth user experience even in unexpected situations.
+
+📌 Outcome
+
+The Weather Report Web Application demonstrates how to combine React, API integration, state management, and responsive design principles. Users can instantly search and view accurate weather details in a clean and simple interface.
